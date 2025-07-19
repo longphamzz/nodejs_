@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "f8"
+  ],
+  "homepage": "https://github.com/longphamzz/nodejs_#readme",
+  "bugs": {
+    "url": "https://github.com/longphamzz/nodejs_/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longphamzz/nodejs_.git"
+  },
+  "license": "ISC",
+  "author": "long",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
